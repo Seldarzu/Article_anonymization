@@ -1,0 +1,23 @@
+{
+    "name": "lenovo/anonimproje3",
+    "description": "Bu proje, anonimleştirme ve hakem atama işlemlerini yönetir.",
+    "type": "project",
+    "require": {
+        "smalot/pdfparser": "^2.11",
+        "phpmailer/phpmailer": "^6.9",
+        "mpdf/mpdf": "^8.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Lenovo\\Anonimproje3\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Seldarzu",
+            "email": "arzuuxselda@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}

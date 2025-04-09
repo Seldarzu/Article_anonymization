@@ -1,0 +1,11 @@
+# Vendor klasörü (bağımlılıklar)
+vendor/
+
+# Log dosyaları
+logs/
+
+# Geçici dosyalar
+temp/
+
+# İşletim sistemi tarafından oluşturulan gereksiz dosyalar
+*.DS_Store
