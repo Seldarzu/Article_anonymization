@@ -41,26 +41,26 @@ This project aims to support **double-blind / single-blind academic review workf
 
 ## 📁 Project Structure
 
-Article_anonymization/
-│
-├── admin/ # Admin / editor panel
-├── hakem/ # Reviewer panel
-├── user/ # Author / user pages
-│
-├── includes/ # Shared PHP configs & helpers
-├── scripts/ # Python scripts for PDF anonymization
-│
-├── css/ # Stylesheets
-├── js/ # JavaScript files
-│
-├── final_dosyalar/ # Generated output PDFs (should be ignored in git)
-│
-├── index.php # Entry point
-├── composer.json # PHP dependencies
-└── README.md
+  Article_anonymization/
+  │
+  ├── admin/ # Admin / editor panel
+  ├── hakem/ # Reviewer panel
+  ├── user/ # Author / user pages
+  │
+  ├── includes/ # Shared PHP configs & helpers
+  ├── scripts/ # Python scripts for PDF anonymization
+  │
+  ├── css/ # Stylesheets
+  ├── js/ # JavaScript files
+  │
+  ├── final_dosyalar/ # Generated output PDFs (should be ignored in git)
+  │
+  ├── index.php # Entry point
+  ├── composer.json # PHP dependencies
+  └── README.md
 
 yaml
-Kodu kopyala
+
 
 ---
 
@@ -81,7 +81,6 @@ Kodu kopyala
 composer install
 3️⃣ Python Environment (If Anonymization Scripts Are Used)
 bash
-Kodu kopyala
 python -m venv venv
 source venv/bin/activate   # Windows: venv\Scripts\activate
 pip install -r requirements.txt
@@ -111,12 +110,10 @@ Absolute system paths
 Using PHP built-in server:
 
 bash
-Kodu kopyala
 php -S localhost:8000
 Open in browser:
 
 arduino
-Kodu kopyala
 http://localhost:8000
 🔐 Security Notes
 Uploaded files should be validated (PDF-only)
@@ -126,8 +123,6 @@ Generated files in final_dosyalar/ should not be committed
 Sensitive configuration files must be excluded via .gitignore
 
 🗂️ Recommended .gitignore
-bash
-Kodu kopyala
 /vendor/
 /venv/
 /__pycache__/
